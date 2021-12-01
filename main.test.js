@@ -8,9 +8,9 @@ test('checks for volcano 1', () => {
 });
 
 test('checks for volcano 2', () => {
-    expect(math_temp.show_volcano('s')).toBe(null)
+    expect(math_temp.volcano_check2('s')).toBe(null)
 });
 
 test('checks for volcano 3', () => {
-    expect(math_temp.show_volcano('c')).toBe(null)
+    expect(math_temp.volcano_check3('c')).toBe(null)
 });
